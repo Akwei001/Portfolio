@@ -411,6 +411,7 @@ header {
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -539,3 +540,5 @@ header {
   outline: 0;
   border-color: #777;
 }
+
+/* My work cards*/

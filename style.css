@@ -497,9 +497,17 @@ header {
 /* Individual portfolio item styles */
 
 .portfolio-item-individual {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
   padding: 0 2em 2em;
   max-width: 1000px;
   margin: auto;
+}
+
+.portfolio-item-individual a {
+  margin-top: 10px;
 }
 
 .portfolio-item-individual p {
